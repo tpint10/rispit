@@ -1,0 +1,118 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: none;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.user-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 40%;
+}
+
+.username {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.user-info {
+  text-align: center;
+  margin-top: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.repositories {
+  margin-top: 20px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.repositories-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.repo-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.repo-row td {
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+.repo-row:last-child td {
+  border-bottom: none;
+}
+
+.reset-button {
+  padding: 8px 16px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: none;
+  background-color: #dc3545;
+  color: #fff;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.reset-button:hover {
+  background-color: #c82333;
+}
